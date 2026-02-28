@@ -33,7 +33,15 @@ O código deve ser capaz de detectar as seguintes situações:
 
 Escreva um código que receba 3 valores separados por um caractere de sua escolha, **n** vezes (n é o número de vezes que o usuário desejar informar).
 
-Exemplo: NOME_CAMPO;VALOR;TIPO;
+Exemplo: nome;Lucas;Texto
+
+Quando o usuário parar de informar valores, o código deve retornar todos esses campos compondo:
+
+- Um **JSON**
+- Um **XML**
+- Um **YAML**
+
+As entradas devem seguir o seguinte padrão: NOME_CAMPO;VALOR;TIPO;
 
 Os tipos que devem ser aceitos são:
 
